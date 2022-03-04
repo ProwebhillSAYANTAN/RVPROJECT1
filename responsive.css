@@ -1,0 +1,47 @@
+
+
+@media(min-width: 1920px){
+        .designheading>p{
+           font-size: 75px;
+        }
+        .lorem{
+            font-size: 20px;
+        }
+
+        .navbar>img{
+            width: 40px;
+            height: 40px;
+        }
+        .navbar p{
+            font-size: 35px;
+        }
+        #btnexplore{
+            width:180px;
+            height: 76px;
+            font-size: 45px;
+        }
+}
+@media(min-width: 2561px){
+    .designheading>p{
+       font-size: 120px;
+    }
+    .lorem{
+        font-size: 40px;
+    }
+}
+
+
+@media(max-width:1561px){
+    .container{
+        display: block;
+    }
+
+   .firstsectioncontainer{
+       display: block;
+   } 
+   .sectionleftdiv{
+       width: 100% !important;
+   }
+
+}
+

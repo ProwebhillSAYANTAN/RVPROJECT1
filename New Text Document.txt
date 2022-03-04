@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Popoins add -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+
+    <title>Rv</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="leftdiv">
+
+                <div class="fulldiv">
+                    <div class="navbar">
+                        <img src="images/icons8-hamburger-menu-24.png" alt="">
+
+                        <a href="index.html">
+                            <p id="RK">RK<span id="international">INTERNATIONAL</span></p>
+                        </a>
+
+                    </div>
+
+
+                    <div class="designheading">
+
+                        <p><span class="design">Design</span> <br><span class="withstyle">With Style</span><br> <span
+                                class="design">Design</span> <br><span class="withstyle">With Smile</span> </p>
+
+                                <div class="lorem">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </div>
+
+                    </div>
+                </div>
+                <div class="explore">
+                    <Button id="btnexplore">Explore</Button>
+                </div>
+
+            </div>
+            <div class="rightdiv">
+                <img class="pinkinteriorimg" src="images/Mask Group 1.png" alt="">
+
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="firstsectioncontainer">
+            <div class="sectionleftdiv">
+                <div class="firstdiv">
+                    <img src="images/Image 1.png" alt="">
+                </div>
+                <div class="seconddiv">
+
+                </div>
+            </div>
+            <div class="sectionrightdiv">
+                <div class="paragraph">
+                    <p><span class="our">Our</span> <br><span class="history">History,</span></p>
+                    <p id="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+                    <div class="readmore">
+                        <div class="leftrow">
+
+                        </div>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 2nd  section -->
+
+    <section>
+        <div class="secondseccontainer">
+            <div class="secondleftsecdiv">
+
+            </div>
+            <div class="secondrightseccdiv">
+                
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!--  -->
