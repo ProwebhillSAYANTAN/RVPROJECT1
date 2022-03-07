@@ -34,6 +34,7 @@
 @media(max-width:1561px){
     .container{
         display: block;
+        font-size: 15px;
     }
 
    .firstsectioncontainer{
@@ -43,5 +44,60 @@
        width: 100% !important;
    }
 
+   .leftdiv{
+       width: 100%;
+   }
+   .rightdiv{
+       width: 100%;
+   }
+   .sectionleftdiv{
+       width: 100%;
+       text-align: center;
+   }
+   .sectionrightdiv{
+       width: 100%;
+       text-align: center;
+   }
+   .secondleftsecdiv{
+       width: 100%;
+   }
+   .designheading{
+       font-size: 60px;
+       text-align: center;
+       padding-top: 90px
+       
+   }
+   .explore{
+       text-align: center;
+       padding-left: 0px;
+       padding-top: 50px;
+       padding-bottom: 50px;
+   }
+   #btnexplore{
+       font-size: 20px;
+       width: 200px;
+       
+   }
+   .lorem{
+       font-size: 15px;
+   }
+   .seconddiv{
+       bottom: 320px;
+   }
+   .paragraph{
+       margin-left: 20px;
+       margin-right: 20px;
+   }
+   .firstdiv img{
+       width: 100%;
+   }
+
+}
+
+@media(max-width:610px){
+    .designheading{
+        font-size: 35px;
+    }
+    
 }
 
