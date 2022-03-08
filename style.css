@@ -188,6 +188,10 @@ a {
 }
 .secondleftsecdiv{
   width: 30%;
+  background-color:#fff8f3;
+}
+.works_left_image{
+  max-width: 100%;
 }
 .secondrightseccdiv{
   width: 70%;
@@ -195,8 +199,7 @@ a {
 }
 
 .our_works{
-  background-color:#fff8f3;
-  height: 296px;
+  /* background-color:#fff8f3; */
   /* padding-left: 150px;
   padding-top: 50px; */
   text-align: center;
