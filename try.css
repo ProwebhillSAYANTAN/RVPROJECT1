@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 li{
     list-style-type: none;
 }
 a{
     text-decoration: none;
+    color: white;
 }
 
 
@@ -101,18 +103,6 @@ a{
 
 
 
-/* .owl-carousel .owl-nav button.owl-next{
-    position: absolute;
-    left: 100px;
-    bottom: 220px;
-}
-
-.owl-carousel .owl-nav button.owl-prev{
-    position: absolute;
-    right: 100px;
-    bottom: 220px;
-} */
-
 .owl-nav{
     position: relative;
 }
@@ -133,181 +123,6 @@ a{
 
 
 
-/* footer */
-
-
-/*  */
-
-
-/* 
-
-a {
-    text-decoration: none;
-    color:#1c6dd0 ;
-  }
-
-
-.footer{
-    background-color: #1C6DD0;
-    color: white;
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 140px;
-}
-
-.firstfooterdiv{
-    width: 441px;
-    height: 308px;
-    padding-left: 233px;
-    font-size: 14px;
-    max-width: 100%;
-}
-.secondfooterdiv{
-    width: 245px;
-    height: 236px;
-    font-size: 14px;
-    max-width: 100%;
-}
-.secondfooterdiv>p:nth-child(3){
-    color: #FF00D5;
-    padding-top: 3px;
-}
-
-
-.icons2{
-    padding-left: 10px;
-}
-
-
-#RK2{
-    color: #FED1EF;
-}
-#international2{
-    color: #FFFFFF;
-}
-.firstfooterdiv>a{
-    padding-bottom: 20px;
-}
-.rkinternational2{
-    padding-bottom: 43px;
-}
-.firstfooterdiv>p:nth-child(3){
-    padding-top: 77px;
-    padding-bottom: 15px;
-
-}
-.firstfooterdiv>p:nth-child(4){
-    padding-bottom: 15px;
-
-}
-.firstfooterdiv>p:nth-child(5){
-    padding-bottom: 15px;
-
-}
-.firstfooterdiv>p:nth-child(2){
-    line-height: 1.5em;
-}
-
-
-.links_policy{
-    display: flex;
-}
-
-.useful_links>ul>li:first-child{
-    padding-top: 43px;
-}
-.useful_links>ul>li{
-    padding-bottom: 10px;
-}
-.useful_links ul{
-    padding-bottom: 36px;
-}
-.footer_social_icons{
-    padding-bottom: 30px;
-}
-.footer_social_icons>img:not(:first-child){
-    padding-left: 17px;
-}
-.footer_social_icons>img:hover{
-   cursor: pointer;
-   
-}
-.policy_links>ul>li:first-child{
-    padding-top: 43px;
-}
-.policy_links>ul>li{
-    padding-bottom: 10px;
-}
-
-
-
-
-
-.fourthfooterdiv{
-    width: 555px;
-    height: 280px;
-    background-color: white;
-    padding-bottom: 140px;
-    border-radius: 16px;
-    box-shadow: 3px 1px 8px -3px #000000;
-    font-size: 14px;
-    max-width: 100%;
-}
-.inputtypes{
-    padding: 30px;
-}
-
-.inputtypes>h2{
-    font-size: 32px;
-    font-style: bold;
-    font-family: "Poppins", sans-serif;
-    color: #1C6DD0;
-    padding-bottom: 35px;
-}
-
-.namediv{
-    width: 479px;
-    height: 71px;
-}
-.namediv>input{
-    width: 100%;
-    height: 100%;
-    border-radius: 14px;
-    font-size: 16px;
-    border: 1px solid #707070;
-}
-.maildiv{
-    width: 479px;
-    height: 71px;
-    padding-top: 23px;
-
-    
-}
-.maildiv>input{
-    width: 100%;
-    height: 100%;
-    border-radius: 14px;
-    font-size: 16px;
-    border: 1px solid #707070;
-}
-.btndiv{
-    width: 170px;
-    height: 71px;
-    padding-top: 28px;
-    
-}
-.btndiv>button{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    background-color: #FED1EF;
-    border: none;
-    font-weight: 900;
-    color: #1C6DD0;
-} */
-
 
 
 footer{
@@ -319,15 +134,23 @@ footer{
     margin: 0 auto;
     width: 1465px;
     display: flex;
-    padding-top: 137px;
+    padding: 137px 0px;
+    justify-content: space-between;
 }
 .links{
     display: flex;
-    gap: 4.19rem;
+    gap: 2.19rem;
     
 }
 .rkinternational2{
     padding-bottom: 44px;
+}
+.firstfooterdiv>p:nth-child(2){
+    color: white;
+    padding-bottom: 78px;
+}
+#contact_number{
+    padding-top: 78px;
 }
 #RK2{
     color: #FED1EF;
@@ -338,8 +161,15 @@ footer{
 .secondfooterdiv{
     max-width: 245px;
 }
+.useful_links{
+    line-height: 1.5em;
+}
 .useful_links h4{
     padding-bottom: 46px;
+    color: white;
+}
+.useful_links li{
+    color: white;
 }
 .policy_links h4{
     padding-bottom: 46px;
@@ -352,4 +182,57 @@ footer{
 }
 .firstfooterdiv{
     max-width: 409px;
+}
+.paragraph21{
+    padding-top: 27px;
+    line-height: 1.5em;
+}
+.paragraph21>p:first-child{
+    color: white;
+}
+.policy_links{
+    color: white;
+    line-height: 1.5em;
+}
+.paragraph21>p:last-child{
+    color: #FF00D5;
+}
+
+
+
+.thirdfooterdiv{
+    width: 555px;
+    background-color: white ;
+    border-radius: 16px;
+}
+.name_email>h2{
+    font-size: 32px;
+    color: #1C6DD0;
+}
+.name_email{
+    padding: 40px 40px;
+}
+.name_email input{
+    width: 100%;
+    padding: 32px 37px;
+    border-radius: 14px;
+    border: 1px solid #707070;
+    outline: none;
+    
+}
+#nameinput{
+    margin-bottom: 14px;
+    margin-top: 37px;
+    width: 100%;
+}
+.name_email button{
+    width: 170px;
+    height: 51px;
+    font-size: 20px;
+    background-color: #FED1EF;
+    color: #1C6DD0;
+    border: none;
+    font-weight: 800;
+    margin-top: 16px;
+    cursor: pointer;
 }
