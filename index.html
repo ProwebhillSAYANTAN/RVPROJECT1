@@ -22,20 +22,31 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-
-
     <title>Rv</title>
 </head>
 
 <body>
+    <!-- Header -->
 
     <header>
         <div class="container">
             <div class="leftdiv">
 
+
+
+                <div class="hamburger_navbar">
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Location</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
                 <div class="fulldiv">
                     <div class="navbar">
-                        <img src="images/icons8-menu-30.png" alt="">
+                        <input type="checkbox" id="checkbtn">
+                        <label for="checkbtn"> <img src="images/icons8-menu-30.png" alt="" onclick="toogleBar()" ></label>
 
                         <a href="index.html">
                             <p id="RK">RK<span id="international">INTERNATIONAL</span></p>
@@ -46,12 +57,13 @@
 
                     <div class="designheading">
 
-                        <p><span class="design">Design</span> <br><span class="withstyle">With Style</span><br> <span
+                        <p><span class="design">Design</span> <span class="withstyle">With Style</span><br> <span
                                 class="design">Design</span> <br><span class="withstyle">With Smile</span> </p>
 
                         <div class="lorem">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s.
+                        </p>
                         </div>
 
                     </div>
@@ -61,9 +73,29 @@
                 </div>
 
             </div>
-            <div class="rightdiv">
-                <img class="pinkinteriorimg" src="images/Mask Group 1.png" alt="">
-
+            <div class="uppercarousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="rightdiv">
+                            <img class="pinkinteriorimg" src="images/Mask Group 1.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="rightdiv">
+                            <img class="pinkinteriorimg" src="images/Mask Group 1.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="rightdiv">
+                            <img class="pinkinteriorimg" src="images/Mask Group 1.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="rightdiv">
+                            <img class="pinkinteriorimg" src="images/Mask Group 1.png" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -127,10 +159,10 @@
     </section>
 
 
-    <!-- section3 -->
+    <!--3rd  section -->
 
     <div class="mycarouselrik">
-        <div class="owl-carousel owl-theme" >
+        <div class="owl-carousel owl-theme">
             <div class="item">
                 <section>
                     <div class="sgastler">
@@ -165,14 +197,14 @@
                                 ever since the 1500s, when an </p>
 
                             <div class="socialicons">
-                                <div class="facebookicon icons">
-                                    <img src="images/Icon awesome-facebook-f.png" alt="">
+                                <div class="facebookicon icons hoveredclass">
+                                    <img src="images/icons8-facebook-24.png" alt="">
                                     <p>facebook</p>
                                 </div>
-                                <div class="instagramicon icons">
+                                <div class="instagramicon icons hoveredclass">
                                     <img src="images/Icon simple-instagram.png" alt="">
                                 </div>
-                                <div class="linkedinicon icons">
+                                <div class="linkedinicon icons hoveredclass">
                                     <img src="images/Icon awesome-linkedin-in.png" alt="">
                                 </div>
                             </div>
@@ -212,21 +244,17 @@
                                 dummy text
                                 of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                 dummy text
-                                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                                make a type
-                                specimen book. It has survived not only five centuries, but also the leap into
-                                electronic
-                                typesetting, remaining essentially unchanged.</p>
+                                ever since the 1500s, when an </p>
 
                             <div class="socialicons">
-                                <div class="facebookicon icons">
-                                    <img src="images/Icon awesome-facebook-f.png" alt="">
+                                <div class="facebookicon icons hoveredclass">
+                                    <img src="images/icons8-facebook-24.png" alt="">
                                     <p>facebook</p>
                                 </div>
-                                <div class="instagramicon icons">
+                                <div class="instagramicon icons hoveredclass">
                                     <img src="images/Icon simple-instagram.png" alt="">
                                 </div>
-                                <div class="linkedinicon icons">
+                                <div class="linkedinicon icons hoveredclass">
                                     <img src="images/Icon awesome-linkedin-in.png" alt="">
                                 </div>
                             </div>
@@ -234,8 +262,7 @@
                         </div>
                     </div>
                 </section>
-            </div>
-            <div class="item">
+            </div><div class="item">
                 <section>
                     <div class="sgastler">
                         <div class="sgastler_leftdiv">
@@ -266,21 +293,17 @@
                                 dummy text
                                 of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                 dummy text
-                                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                                make a type
-                                specimen book. It has survived not only five centuries, but also the leap into
-                                electronic
-                                typesetting, remaining essentially unchanged.</p>
+                                ever since the 1500s, when an </p>
 
                             <div class="socialicons">
-                                <div class="facebookicon icons">
-                                    <img src="images/Icon awesome-facebook-f.png" alt="">
+                                <div class="facebookicon icons hoveredclass">
+                                    <img src="images/icons8-facebook-24.png" alt="">
                                     <p>facebook</p>
                                 </div>
-                                <div class="instagramicon icons">
+                                <div class="instagramicon icons hoveredclass">
                                     <img src="images/Icon simple-instagram.png" alt="">
                                 </div>
-                                <div class="linkedinicon icons">
+                                <div class="linkedinicon icons hoveredclass">
                                     <img src="images/Icon awesome-linkedin-in.png" alt="">
                                 </div>
                             </div>
@@ -288,8 +311,7 @@
                         </div>
                     </div>
                 </section>
-            </div>
-            <div class="item">
+            </div><div class="item">
                 <section>
                     <div class="sgastler">
                         <div class="sgastler_leftdiv">
@@ -320,21 +342,17 @@
                                 dummy text
                                 of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                 dummy text
-                                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                                make a type
-                                specimen book. It has survived not only five centuries, but also the leap into
-                                electronic
-                                typesetting, remaining essentially unchanged.</p>
+                                ever since the 1500s, when an </p>
 
                             <div class="socialicons">
-                                <div class="facebookicon icons">
-                                    <img src="images/Icon awesome-facebook-f.png" alt="">
+                                <div class="facebookicon icons hoveredclass">
+                                    <img src="images/icons8-facebook-24.png" alt="">
                                     <p>facebook</p>
                                 </div>
-                                <div class="instagramicon icons">
+                                <div class="instagramicon icons hoveredclass">
                                     <img src="images/Icon simple-instagram.png" alt="">
                                 </div>
-                                <div class="linkedinicon icons">
+                                <div class="linkedinicon icons hoveredclass">
                                     <img src="images/Icon awesome-linkedin-in.png" alt="">
                                 </div>
                             </div>
@@ -342,8 +360,7 @@
                         </div>
                     </div>
                 </section>
-            </div>
-            <div class="item">
+            </div><div class="item">
                 <section>
                     <div class="sgastler">
                         <div class="sgastler_leftdiv">
@@ -374,75 +391,17 @@
                                 dummy text
                                 of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                 dummy text
-                                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                                make a type
-                                specimen book. It has survived not only five centuries, but also the leap into
-                                electronic
-                                typesetting, remaining essentially unchanged.</p>
+                                ever since the 1500s, when an </p>
 
                             <div class="socialicons">
-                                <div class="facebookicon icons">
-                                    <img src="images/Icon awesome-facebook-f.png" alt="">
+                                <div class="facebookicon icons hoveredclass">
+                                    <img src="images/icons8-facebook-24.png" alt="">
                                     <p>facebook</p>
                                 </div>
-                                <div class="instagramicon icons">
+                                <div class="instagramicon icons hoveredclass">
                                     <img src="images/Icon simple-instagram.png" alt="">
                                 </div>
-                                <div class="linkedinicon icons">
-                                    <img src="images/Icon awesome-linkedin-in.png" alt="">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="item">
-                <section>
-                    <div class="sgastler">
-                        <div class="sgastler_leftdiv">
-                            <img id="rectangle" src="images/Rectangle 10.png" alt="">
-                            <img src="images/Mask Group 2.png" alt="">
-                        </div>
-                        <div class="sgastler_rightdiv">
-                            <h2 class="s_gastler_heading">
-                                S.Gastler
-                            </h2>
-
-
-                            <div class="star">
-                                <img src="images/Group 3.png" alt="">
-                                <img src="images/Group 3.png" alt="">
-                                <img src="images/Group 3.png" alt="">
-                                <img src="images/Group 3.png" alt="">
-                                <img src="images/Group 3.png" alt="">
-                            </div>
-
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the
-                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                                galley of type
-                                and scrambled it to make a type specimen book. It has survived not only five centuries,
-                                but also the
-                                leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply
-                                dummy text
-                                of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                dummy text
-                                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                                make a type
-                                specimen book. It has survived not only five centuries, but also the leap into
-                                electronic
-                                typesetting, remaining essentially unchanged.</p>
-
-                            <div class="socialicons">
-                                <div class="facebookicon icons">
-                                    <img src="images/Icon awesome-facebook-f.png" alt="">
-                                    <p>facebook</p>
-                                </div>
-                                <div class="instagramicon icons">
-                                    <img src="images/Icon simple-instagram.png" alt="">
-                                </div>
-                                <div class="linkedinicon icons">
+                                <div class="linkedinicon icons hoveredclass">
                                     <img src="images/Icon awesome-linkedin-in.png" alt="">
                                 </div>
                             </div>
@@ -545,8 +504,6 @@
 
 
 
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -576,6 +533,33 @@
 
     </script>
 
+
+
+<script>
+
+
+    let toogleStatus=1;
+
+
+    function toogleBar(){
+
+        if(toogleStatus==1){
+            let x= document.getElementsByClassName("hamburger_navbar")
+            x[0].style.cssText="left:0px;"
+            toogleStatus=0;
+        }
+            else if(toogleStatus==0){
+                let x=document.getElementsByClassName("hamburger_navbar")
+                x[0].style.cssText="left:-100%;"
+                toogleStatus=1;
+
+            }
+        }
+
+
+
+
+</script>
 
 
 
