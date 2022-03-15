@@ -57,9 +57,11 @@ header{
         width: 35.6vw;
         padding-bottom: 70px;
 
+
 }
 .hamburger_navbar ul li{
   padding-top: 35px;
+  cursor: pointer;
 }
 #checkbtn{
   display: none;
@@ -71,8 +73,6 @@ header{
   width: 100%;
   padding-right: 107px;
   background-color: #fff8f3;
-  /* height: 5300px; */
-  /* border: 2px solid red; */
 }
 
 #international {

@@ -226,6 +226,9 @@
   .hamburger_navbar ul{
     width: 100vw;
   }
+  .footer{
+    padding-bottom: 48px;
+  }
 }
 
 /* 870 */
