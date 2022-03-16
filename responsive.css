@@ -188,6 +188,7 @@
   #btnexplore {
     font-size: 20px;
     width: 200px;
+    font-size: 22px;
   }
   .lorem {
     font-size: 15px;
@@ -229,6 +230,14 @@
   .footer{
     padding-bottom: 48px;
   }
+  .paragraph>p:first-child{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .our_works>p:first-child{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 
 /* 870 */
@@ -252,7 +261,8 @@
     margin: 0 auto;
   }
   .socialicons {
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
   }
   .uppercarousel>.owl-theme .owl-dots{
     display: none;

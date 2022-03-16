@@ -63,8 +63,31 @@ header{
   padding-top: 35px;
   cursor: pointer;
 }
+.hamburger_navbar ul li:hover{
+  color: #053168;
+}
 #checkbtn{
   display: none;
+}
+.hamburger_navbar ul li:last-child button{
+  background-color: #1c6dd0;
+  color: #fed1ef;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+
+}
+.hamburger_navbar ul li:last-child button:hover{
+  box-shadow: 1px -1px 6px 5px rgba(28,109,208,0.81);
+  -webkit-box-shadow: 1px -1px 6px 5px rgba(28,109,208,0.81);
+  -moz-box-shadow: 1px -1px 6px 5px rgba(28,109,208,0.81);
+  font-weight: 700;
+  color: #f59bd7;
 }
 
 .fulldiv {
@@ -117,10 +140,17 @@ header{
   width: 271px;
   height: 66px;
   font-size: 30px;
+  border-radius: 5px;
   font-family: "Poppins", sans-serif;
   color: white;
   background-color: #1c6dd0;
   border: none;
+  cursor: pointer;
+}
+#btnexplore:hover{
+  box-shadow: 1px -1px 6px 5px rgba(28,109,208,0.81);
+-webkit-box-shadow: 1px -1px 6px 5px rgba(28,109,208,0.81);
+-moz-box-shadow: 1px -1px 6px 5px rgba(28,109,208,0.81);
 }
 
 .navbar {
@@ -486,6 +516,9 @@ footer{
 .contactsfooter{
   font-family: 'Poppins', sans-serif;
 }
+.contactsfooter img{
+  padding-right: 14px;
+}
 .secondfooterdiv{
   max-width: 245px;
 }
@@ -510,6 +543,9 @@ footer{
   align-items: center;
   justify-content: flex-start;
 
+}
+.footericonssocialsite a img{
+  padding-right: 14px;
 }
 .footericonssocialsite>p:nth-child(2){
   align-self: inherit;
